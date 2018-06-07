@@ -2253,3 +2253,11 @@ Processing by ArtistsController#show as HTML
   Parameters: {"id"=>"3"}
   Rendered artists/show.html.erb within layouts/application (0.3ms)
 Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/artists/1" for 68.129.128.120 at 2018-06-07 18:08:57 +0000
+Cannot render console from 68.129.128.120! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArtistsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered artists/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 5.2ms | ActiveRecord: 0.0ms)
