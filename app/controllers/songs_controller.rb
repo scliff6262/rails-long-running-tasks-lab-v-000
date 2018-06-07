@@ -51,7 +51,7 @@ class SongsController < ApplicationController
       Song.create(title: song[0], artist_name: song[1])
     end
     redirect_to songs_path
-  end 
+  end
 
   private
 
@@ -59,4 +59,3 @@ class SongsController < ApplicationController
     params.require(:song).permit(:title, :artist_name)
   end
 end
-
